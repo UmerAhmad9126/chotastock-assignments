@@ -1,0 +1,83 @@
+.nav-container {
+    width: 100%;
+    height: 120px;
+    background: #171E27;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.nav-container .logo p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-top: -30px;
+    margin-left: 112px;
+}
+
+
+
+.input-container {
+    position: relative;
+    right: 45px;
+}
+
+.input-container img {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-container input {
+    padding-left: 50px;
+    background: #81878C;
+    width: 430px;
+    height: 38px;
+    border-radius: 10px;
+}
+
+.nav-container input::placeholder {
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.nav-container .login-btn {
+    background: linear-gradient(90.9deg, #FEC826 0.56%, #F3A61D 96.47%);
+    width: 145px;
+    height: 57px;
+    top: 63px;
+    left: 1550px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.login-btn img {
+    width: 34px;
+    height: 34px;
+}
+
+.login-btn p {
+    width: 64px;
+    height: 29px;
+    color: #171E27;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
